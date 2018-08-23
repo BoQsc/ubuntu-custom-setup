@@ -14,11 +14,20 @@ https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/-/archive/master/de
 
 # Extract downloaded extension archive .tar.gz using built-in archiving utility named "tar".
 tar -xvzf ./desktop-icons-master.tar.gz
+#extracted folder must be named: desktop-icons@csoriano
+#press alt+f2 and write restart - to restart gnome and see new available extensions
+
+
+### disable ubuntu icons implementation.
+gsettings set org.gnome.desktop.background show-desktop-icons false
+
 
 # z: tells tar to decompress the archive using gzip
 # x: tar can collect files or extract them. x does the latter.
 # v: makes tar talk a lot. Verbose output shows you all the files being extracted.
 # f: this must be the last flag of the command, and the tar file must be immediately after. It tells tar the name and path of the compressed file.
+
+sudo add-apt-repository universe
 
 ## Installing Flatpak
 
@@ -42,6 +51,8 @@ flatpak remote-add --if-not-exists gnome-apps-nightly --from https://sdk.gnome.o
 
 #Install Nautilus Flatpak nightly 
 flatpak install gnome-apps-nightly org.gnome.NautilusDevel
+
+
 
 
 
