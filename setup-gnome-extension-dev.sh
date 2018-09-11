@@ -31,6 +31,7 @@ fi
 eval cd "~/.local/share/gnome-shell/extensions"
 
 # Creates new extension's folder, must be same as declared in metadata.json
+ #Otherwise, extension won't be loaded after gnome shell refresh.
 if folderNotExist "example@extensions.gnome.org"; 
   then mkdir "example@extensions.gnome.org"; 
 else echo Folder already exists
