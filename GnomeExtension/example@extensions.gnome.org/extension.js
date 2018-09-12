@@ -1,4 +1,7 @@
-
+// Gnome Seed Importer
+// https://wiki.gnome.org/Projects/Seed
+// https://github.com/GNOME/seed
+// https://developer.gnome.org/seed/stable/seed-importer.html
 const St = imports.gi.St;
 const Main = imports.ui.main;
 const Tweener = imports.ui.tweener;
