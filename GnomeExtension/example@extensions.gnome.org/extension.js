@@ -1,4 +1,4 @@
-// Gnome Seed Importer
+// Gnome Seed namespace Importer
 // https://wiki.gnome.org/Projects/Seed
 // https://github.com/GNOME/seed
 // https://developer.gnome.org/seed/stable/seed-importer.html
