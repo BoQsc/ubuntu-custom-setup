@@ -6,6 +6,7 @@
 #
 # References for development:
 # https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
+# https://www.tutorialspoint.com/unix/shell_scripting.htm
 #
 # Remember to launch this script using bash and not sh shell.
 # bash setup-gnome-extension.sh
