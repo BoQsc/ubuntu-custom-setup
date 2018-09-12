@@ -11,7 +11,7 @@
 # 2>/dev/null       Silence error if the folder already exists
 
 
-# Function that checks if 
+# Function that checks if given path last element is a folder.
 folderNotExist() {
   
   # Check if function argument is not empty
