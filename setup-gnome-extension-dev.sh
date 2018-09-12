@@ -4,6 +4,9 @@
 #
 # Style Guide: https://google.github.io/styleguide/shell.xml
 #
+# References for development:
+# https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
+#
 # Remember to launch this script using bash and not sh shell.
 # bash setup-gnome-extension.sh
 #
