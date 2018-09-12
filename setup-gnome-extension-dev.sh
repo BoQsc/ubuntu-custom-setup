@@ -12,21 +12,24 @@
 
 
 # Function that checks if given path last element is a folder.
-folderNotExist() {
+function folderNotExist() {
+  declare argument=$1;
   
   # Check if function argument is not empty
-  [ -z "$1" ] && exit 1
+  [ -z "$argument" ] && exit 1
 
   # Check if argument is a directory
-  if [ -d $1 ]; then #echo "$1 is a directory"
+  if [ -d $argument ]; then #echo "$argument is a directory"
     return 1;
 
-  elif [[ -f $1 ]]; then #echo "$1 is a file"
-    return 0
+  elif [[ -f $argument ]]; then #echo "$argument is a file"
+    return 0;
 
   else
-      echo "$1 is not valid"
-      exit 1
+      #echo "$argument does not exist"
+      #echo "$argument is not valid"
+      return 0;
+      #exit 1
   fi
 }
 
