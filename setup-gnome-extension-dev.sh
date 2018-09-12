@@ -11,8 +11,9 @@
 # 2>/dev/null       Silence error if the folder already exists
 
 
-# Function that
+# Function that checks if 
 folderNotExist() {
+  
   # Check if function argument is not empty
   [ -z "$1" ] && exit 1
 
