@@ -7,10 +7,11 @@
 # Remember to launch this script using bash and not sh shell.
 # bash setup-gnome-extension.sh
 #
+# Useful tested ideas:
 # 2>/dev/null       Silence error if the folder already exists
 
 
-# 
+# Function that
 folderNotExist() {
   # Check if function argument is not empty
   [ -z "$1" ] && exit 1
