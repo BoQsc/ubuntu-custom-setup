@@ -3,8 +3,10 @@
 // https://github.com/GNOME/seed
 // https://developer.gnome.org/seed/stable/seed-importer.html
 const St = imports.gi.St;
-const Main = imports.ui.main;
-const Tweener = imports.ui.tweener;
+const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
+const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js
+
+
 
 //Gtk is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.
 //GLib is a helper library, which lets us do things like tell GNOME where the hellognome.html file we created is.
