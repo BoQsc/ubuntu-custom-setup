@@ -1,27 +1,29 @@
 #!/bin/bash
-
+#
+# Style Guide: https://google.github.io/styleguide/shell.xml
+#
 # Remember to launch this script using bash and not sh shell.
 # bash setup-gnome-extension.sh
 
-## 2>/dev/null       Silence error if the folder already exists
+# 2>/dev/null       Silence error if the folder already exists
 
 
+# 
 folderNotExist() {
+  # Check if function argument is not empty
+  [ -z "$1" ] && exit 1
 
-# Check if function argument is not empty
-[ -z "$1" ] && exit 1
-
-# Check if argument is a directory
-if [ -d $1 ]; then #echo "$1 is a directory"
+  # Check if argument is a directory
+  if [ -d $1 ]; then #echo "$1 is a directory"
     return 1;
 
-elif [[ -f $1 ]]; then #echo "$1 is a file"
+  elif [[ -f $1 ]]; then #echo "$1 is a file"
     return 0
 
-else
-    echo "$1 is not valid"
-    exit 1
-fi
+  else
+      echo "$1 is not valid"
+      exit 1
+  fi
 }
 
 
