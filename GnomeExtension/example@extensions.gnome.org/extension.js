@@ -6,6 +6,10 @@ const St = imports.gi.St;
 const Main = imports.ui.main;
 const Tweener = imports.ui.tweener;
 
+//Gtk is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.
+//GLib is a helper library, which lets us do things like tell GNOME where the hellognome.html file we created is.
+//And Webkit is a web rendering engine, which we'll use to basically create a browser window to open our HTML file with.
+// https://developer.gnome.org/gnome-devel-demos/stable/hellognome.js.html.en
 let text, button;
 
 function _hideHello() {
