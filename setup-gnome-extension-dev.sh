@@ -34,6 +34,7 @@ function folderNotExist() {
 }
 
 
+
 # Change current directory to logged-user Gnome extensions folder.
   #Tilde (~) is considered as character if cd command is used without eval.
   #Tilde (~) is the same as $home, path to the current user's home directory.
@@ -43,8 +44,10 @@ eval cd "~/.local/share/gnome-shell/extensions"
  #Otherwise, extension won't be loaded after gnome shell refresh.
 if folderNotExist "example@extensions.gnome.org"; 
   then mkdir "example@extensions.gnome.org"; 
-else echo Folder already exists
+else 
+  echo "Folder already exists";
 fi
+
 
 # Change directory into newly created extension's folder
 cd "example@extensions.gnome.org"
