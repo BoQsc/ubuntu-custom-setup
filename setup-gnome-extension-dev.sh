@@ -1,10 +1,12 @@
 #!/bin/bash
 #
+# Generate the new Gnome Extension barebones
+#
 # Style Guide: https://google.github.io/styleguide/shell.xml
 #
 # Remember to launch this script using bash and not sh shell.
 # bash setup-gnome-extension.sh
-
+#
 # 2>/dev/null       Silence error if the folder already exists
 
 
