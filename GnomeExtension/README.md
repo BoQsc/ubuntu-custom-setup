@@ -1,5 +1,7 @@
 # Gnome shell Extension development
 
+
+# About the icon used in this example
 This project uses icons from: https://github.com/GNOME/adwaita-icon-theme
 Adwaita icons are the default of Ubuntu.
 
