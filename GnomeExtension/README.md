@@ -1,4 +1,6 @@
 # Gnome shell Extension development
+
+# Example Extension preview
 ![Gnome Extension example](example.gif)
 
 
