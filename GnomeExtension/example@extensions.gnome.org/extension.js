@@ -3,6 +3,7 @@
 // https://github.com/GNOME/seed
 // https://developer.gnome.org/seed/stable/seed-importer.html
 // https://gi.readthedocs.io/en/latest/#gobject-introspection
+// https://developer.gnome.org/gi/stable/overview.html
 
 const St = imports.gi.St; // GObject-Introspection namespace/St
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
