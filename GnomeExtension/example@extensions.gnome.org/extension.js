@@ -1,8 +1,9 @@
-// Gnome Seed namespace Importer
+// Gnome Seed - namespace and modules importer
 // https://wiki.gnome.org/Projects/Seed
 // https://github.com/GNOME/seed
 // https://developer.gnome.org/seed/stable/seed-importer.html
-const St = imports.gi.St;
+// https://gi.readthedocs.io/en/latest/#gobject-introspection
+const St = imports.gi.St; // GObject-Introspection namespace/st
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
 const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js
 
