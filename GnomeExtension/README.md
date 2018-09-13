@@ -5,7 +5,6 @@
 Adwaita icons are the default icons of Ubuntu.  
 
 ![system-run-symbolic](system-run-symbolic.png)  
-
 The example project uses icon from: https://github.com/GNOME/adwaita-icon-theme    
 After Ubuntu installation the scalable .svg icon can be found in: **/usr/share/icons/Adwaita/scalable/actions/system-run-symbolic.svg**
 
