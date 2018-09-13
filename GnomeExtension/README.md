@@ -2,6 +2,7 @@
 
 
 # About the icon used in this example
+![system-run-symbolic](system-run-symbolic.png)
 This project uses icons from: https://github.com/GNOME/adwaita-icon-theme
 Adwaita icons are the default of Ubuntu.
 
@@ -10,6 +11,7 @@ In the Ubuntu installation the scalable .svg icon can be found: **/usr/share/ico
 
 # Example Extension preview
 ![Gnome Extension example](example.gif)
+
 
 
 ```
