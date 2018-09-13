@@ -1,10 +1,10 @@
 # Gnome shell Extension development
 
 
-# About the icon used in this example
+# About the icon used in this example ![system-run-symbolic](system-run-symbolic.png)  
 Adwaita icons are the default icons of Ubuntu.  
 
-![system-run-symbolic](system-run-symbolic.png)  
+
 **The example project uses icon from:** 
 * https://github.com/GNOME/adwaita-icon-theme  
 
