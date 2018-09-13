@@ -5,7 +5,7 @@
 // https://gi.readthedocs.io/en/latest/#gobject-introspection
 // https://developer.gnome.org/gi/stable/overview.html
 
-const St = imports.gi.St; // GObject-Introspection namespace/St
+const St = imports.gi.St; // importing from GObject-Introspection namespace
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
 const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js
 
