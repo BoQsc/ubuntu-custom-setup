@@ -1,6 +1,9 @@
 /*
-    Gnome Application Development book
+    Gnome Application Development book:
     http://devernay.free.fr/cours/IHM/GTK/GGAD.pdf
+    
+    Additional Code explanation:
+    https://wiki.gnome.org/Projects/GnomeShell/Extensions/EcoDoc/FirstExtension#Hello_World_Code_Sample
 */
 
 // Gnome Seed - namespace and modules importer
