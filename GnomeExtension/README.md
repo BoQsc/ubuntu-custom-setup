@@ -11,7 +11,7 @@ In the Ubuntu installation the scalable .svg icon can be found: **/usr/share/ico
 
 
 # Example Extension preview
-![Gnome Extension example](example.gif)
+![Gnome Extension example](example-preview.gif)
 
 
 
