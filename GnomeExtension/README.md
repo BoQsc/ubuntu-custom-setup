@@ -1,4 +1,7 @@
 # Gnome shell Extension development
+
+<img src="example.gif" alt="Logo">
+
 ```
 ubuntu@ubuntu:~/Desktop$ gnome-shell-extension-tool -c
 
