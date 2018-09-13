@@ -4,7 +4,7 @@
 # About the icon used in this example
 ![system-run-symbolic](system-run-symbolic.png)
 
-Adwaita icons are the default icons of Ubuntu.
+Adwaita icons are the default icons of Ubuntu.  
 The example project uses icon from: https://github.com/GNOME/adwaita-icon-theme    
 After Ubuntu installation, the scalable .svg icon can be found: **/usr/share/icons/Adwaita/scalable/actions/system-run-symbolic.svg**
 
