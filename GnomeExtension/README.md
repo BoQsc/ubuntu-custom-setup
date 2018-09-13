@@ -1,7 +1,7 @@
 # Gnome shell Extension development
 
 ## Extension's description / brief overview
-This is Personal Gnome Shell Extension Example's study, that was started to get better understanding about Gnome Extensions.
+This is Personal Gnome Shell Extension Example's study, it was started to get better understanding about Gnome Extensions.
 
 ## ![system-run-symbolic](system-run-symbolic.png)About the icon used in this example (/system-run-symbolic.svg)
 Adwaita icons are the default icons of Ubuntu, that's the reason why it is chosen for this example extension.
