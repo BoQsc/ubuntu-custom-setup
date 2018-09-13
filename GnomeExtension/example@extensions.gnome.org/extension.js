@@ -20,6 +20,8 @@ const St = imports.gi.St; // importing namespace from GObject-Introspection (Int
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
 const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js
 
+// The GNOME Shell uses Clutter to lay out its graphical components.
+// The GNOME Shell does not use Clutter animation framework, but uses Tweener instead.
 
 
 //Gtk is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.
