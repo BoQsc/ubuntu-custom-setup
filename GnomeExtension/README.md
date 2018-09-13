@@ -3,7 +3,7 @@
 ## Extension's description
 
 
-# About the icon used in this example ![system-run-symbolic](system-run-symbolic.png)  
+## About the icon used in this example ![system-run-symbolic](system-run-symbolic.png)  
 Adwaita icons are the default icons of Ubuntu.  
 
 
