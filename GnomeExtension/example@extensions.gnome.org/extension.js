@@ -5,7 +5,7 @@
 // https://gi.readthedocs.io/en/latest/#gobject-introspection
 // https://developer.gnome.org/gi/stable/overview.html
 
-// Gjs engine <- Gnome Seed importer <- C libraries
+// Gnome Javascript (Gjs) engine <- Gnome Seed importer <- C libraries
 
 const St = imports.gi.St; // importing from GObject-Introspection namespace
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
