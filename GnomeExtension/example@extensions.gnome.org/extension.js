@@ -72,6 +72,14 @@ function init() {
                              style_class: 'system-status-icon' });
 
     button.set_child(icon);
+    
+    
+/*
+The Signals section of the ClutterActor documentation lists all of the events emitted by an actor.
+We can associate each event with one actor and a function that will be called when the event occurs, and will carry out what we want to happen when the event occurs (like move the actor when we click it, change its opacity when we hover it, etc.). This association is called "connect".
+So, to connect one actor to one event: actor.connect(eventName, functionToCallWhenEventOccurs);
+*/
+
     button.connect('button-press-event', _showHello);
 }
 
