@@ -1,5 +1,11 @@
 # Gnome shell Extension development
 
+This project uses icons from: https://github.com/GNOME/adwaita-icon-theme
+Adwaita icons are the default of Ubuntu.
+
+In the Ubuntu installation the icon can be found: **/usr/share/icons/Adwaita/scalable/actions/system-run-symbolic.svg**
+
+
 # Example Extension preview
 ![Gnome Extension example](example.gif)
 
