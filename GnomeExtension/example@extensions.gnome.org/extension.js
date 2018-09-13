@@ -1,3 +1,8 @@
+/*
+    Gnome Application Development book
+    http://devernay.free.fr/cours/IHM/GTK/GGAD.pdf
+*/
+
 // Gnome Seed - namespace and modules importer
 // https://wiki.gnome.org/Projects/Seed
 // https://github.com/GNOME/seed
