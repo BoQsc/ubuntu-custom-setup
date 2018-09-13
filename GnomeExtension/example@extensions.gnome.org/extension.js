@@ -16,7 +16,7 @@
 
 // St means Gnome Shell toolkit.
 // https://developer.gnome.org/st/stable/
-const St = imports.gi.St; // importing namespace from GObject-Introspection
+const St = imports.gi.St; // importing namespace from GObject-Introspection (Introspection takes it from here: https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/src/st)
 const Main = imports.ui.main; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js
 const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js
 
