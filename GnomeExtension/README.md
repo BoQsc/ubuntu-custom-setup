@@ -17,7 +17,7 @@ Eclipse tools:
 * https://marketplace.eclipse.org/content/jshint-eclipse
 * https://marketplace.eclipse.org/content/editbox
 * https://marketplace.eclipse.org/content/codemix
-
+* http://usejsdoc.org/ - documentation tool
 
 ## ![system-run-symbolic](system-run-symbolic.png)About the icon used in this example (/system-run-symbolic.svg)
 Adwaita icons are the default icons of Ubuntu, that's the reason why it is chosen for this example extension.
