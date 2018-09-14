@@ -1,6 +1,6 @@
 # Example Extension named: example@extensions.gnome.org
 
-## GObject-Introspection
+## What is GObject-Introspection
 
 Introspection is a way of finding out what an object is and what it contains at runtime. In some languages this is more necessary than others. Python which is dynamically typed (that is to say, an object can gain attributes and methods at runtime) uses introspection to find out an object's current status.
 
