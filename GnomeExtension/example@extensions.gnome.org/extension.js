@@ -71,6 +71,8 @@ function _showHello() {
                        onComplete: _hideHello });
 }
 
+
+// Init() function is first function that will be initialized, then enable() and disable() will follow. 
 function init() {
     button = new St.Bin({ style_class: 'panel-button',
                           reactive: true,
