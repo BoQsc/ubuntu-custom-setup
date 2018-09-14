@@ -1,5 +1,7 @@
 # Gnome shell Extension development
 
+![GnomeLogoHorizontal](GnomeLogoHorizontal.png)
+
 ## Extension's description / brief overview
 This is Personal Gnome Shell Extension Example's study, it was started to get better understanding about Gnome Extensions.
 
