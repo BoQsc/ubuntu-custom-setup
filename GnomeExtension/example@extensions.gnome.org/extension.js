@@ -86,10 +86,13 @@ So, to connect one actor to one event: actor.connect(eventName, functionToCallWh
     button.connect('button-press-event', _showHello);
 }
 
+// What will happen when you enable extension by either Gnome Tweaks or gsettings.
 function enable() {
+    // Use panel from Main namespace to insert button at the beginning of panel's right box.
     Main.panel._rightBox.insert_child_at_index(button, 0);
 }
 
+// What will happen when you disable extension by either Gnome Tweaks or gsettings.
 function disable() {
     Main.panel._rightBox.remove_child(button);
 }
