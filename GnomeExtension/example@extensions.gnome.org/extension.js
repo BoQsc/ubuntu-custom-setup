@@ -32,9 +32,9 @@ const Tweener = imports.ui.tweener; // https://gitlab.gnome.org/GNOME/gnome-shel
 //And Webkit is a web rendering engine, which we'll use to basically create a browser window to open our HTML file with.
 // https://developer.gnome.org/gnome-devel-demos/stable/hellognome.js.html.en
 /*
-const GLib = imports.gi.GLib;
-const Gtk = imports.gi.Gtk;
-const Webkit = imports.gi.WebKit2;
+const GLib = imports.gi.GLib; // importing namespace from GObject-Introspection
+const Gtk = imports.gi.Gtk; // importing namespace from GObject-Introspection
+const Webkit = imports.gi.WebKit2; // importing namespace from GObject-Introspection
 */
 
 let text, button;
