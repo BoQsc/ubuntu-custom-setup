@@ -16,7 +16,7 @@ Eclipse tools:
 * https://marketplace.eclipse.org/content/closure-ide
 * https://marketplace.eclipse.org/content/jshint-eclipse
 * https://marketplace.eclipse.org/content/editbox
-* https://www.genuitec.com/products/codemix/
+* https://marketplace.eclipse.org/content/codemix
 
 
 ## ![system-run-symbolic](system-run-symbolic.png)About the icon used in this example (/system-run-symbolic.svg)
