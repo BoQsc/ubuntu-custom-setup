@@ -51,6 +51,8 @@ function _hideHello() {
     text = null;
 }
 
+
+// Show text actor, this function is executed after clicking a button.
 function _showHello() {
     if (!text) {
         text = new St.Label({ style_class: 'helloworld-label', text: "Hello, world!" });
@@ -64,6 +66,9 @@ function _showHello() {
     text.set_position(monitor.x + Math.floor(monitor.width / 2 - text.width / 2),
                       monitor.y + Math.floor(monitor.height / 2 - text.height / 2));
 
+    
+    // Use Tweener ease out animation to lower opacity in 2 seconds 
+    // and then execute _hideHello to remove text actor from the User Interface
     Tweener.addTween(text,
                      { opacity: 0,
                        time: 2,
@@ -93,6 +98,8 @@ So, to connect one actor to one event: actor.connect(eventName, functionToCallWh
 */
 
     
+    
+    // LINKING button to a function.
     // After button object creation, connect button to a callback function
     //... When the button is pressed - execute following function...
     // in the enable() function we then assign button to the panel right box.
