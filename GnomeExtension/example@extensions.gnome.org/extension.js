@@ -63,6 +63,7 @@ function _showHello() {
 
     let monitor = Main.layoutManager.primaryMonitor;
 
+    // Calculate center of the monitor for text placement.
     text.set_position(monitor.x + Math.floor(monitor.width / 2 - text.width / 2),
                       monitor.y + Math.floor(monitor.height / 2 - text.height / 2));
 
