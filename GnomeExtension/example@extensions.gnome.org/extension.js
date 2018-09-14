@@ -92,6 +92,10 @@ We can associate each event with one actor and a function that will be called wh
 So, to connect one actor to one event: actor.connect(eventName, functionToCallWhenEventOccurs);
 */
 
+    
+    // After button object creation, connect button to a callback function
+    //... When the button is pressed - execute following function...
+    // in the enable() function we then assign button to the panel right box.
     button.connect('button-press-event', _showHello);
 }
 
