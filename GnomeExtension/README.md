@@ -10,6 +10,14 @@ In the future, the project might use libre office draw program to ease the neces
 The only code quality measurement: 
 https://www.google.lt/search?q=the+only+valid+measurement+of+code+quality&source=lnms&sa=X&ved=0ahUKEwi794DPiLrdAhXNh6YKHeyIAa4Q_AUICSgA&biw=1920&bih=938&dpr=1
 
+#### Setup Eclipse Integrated Development Environment for Javascript
+
+Eclipse tools:
+* https://marketplace.eclipse.org/content/closure-ide
+* https://marketplace.eclipse.org/content/jshint-eclipse
+* https://marketplace.eclipse.org/content/editbox
+
+
 ## ![system-run-symbolic](system-run-symbolic.png)About the icon used in this example (/system-run-symbolic.svg)
 Adwaita icons are the default icons of Ubuntu, that's the reason why it is chosen for this example extension.
 
