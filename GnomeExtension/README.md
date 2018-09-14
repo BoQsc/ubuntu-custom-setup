@@ -3,7 +3,7 @@
 ## Extension's description / brief overview
 This is Personal Gnome Shell Extension Example's study, it was started to get better understanding about Gnome Extensions.
 
-In the future, the project might use libre office draw program to ease the necessary adjustments in the future.
+In the future, the project might use libre office draw program to ease the necessary adjustments, if a need for that arrives.
 
 ## ![system-run-symbolic](system-run-symbolic.png)About the icon used in this example (/system-run-symbolic.svg)
 Adwaita icons are the default icons of Ubuntu, that's the reason why it is chosen for this example extension.
