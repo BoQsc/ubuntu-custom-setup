@@ -1,3 +1,4 @@
+```
 /**
  * GNU Gnome Extension Study | extension.js file
  * Copyright (C) 2018 GNU GNOME
@@ -17,5 +18,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
  
- Source: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ ```
  
+  Source: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
