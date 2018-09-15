@@ -1,5 +1,5 @@
 /**
- *  @file The extension.js file is simply a JavaScript file; 
+ *  @file The extension.js file is simply a JavaScript file; @see {@link http://github.com|GitHub} for further information.
  *  it must however have a function called init, which will be invoked at most once directly after your source JS file is loaded. 
  *  You should modify all user interfaces in a separate enable function, and remove all custom functionality in a disable function.
  *
