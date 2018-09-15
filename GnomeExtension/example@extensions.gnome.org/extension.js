@@ -4,7 +4,6 @@
  *  You should modify all user interfaces in a separate enable function, and remove all custom functionality in a disable function.
  *
  *  @author       GNU Gnome
- *
  *  @requires     /stylesheet.css
  */
 
