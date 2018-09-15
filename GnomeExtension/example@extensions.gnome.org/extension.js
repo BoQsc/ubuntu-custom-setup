@@ -4,7 +4,7 @@
  *  You should modify all user interfaces in a separate enable function, and remove all custom functionality in a disable function.
  *
  *  @author       GNU Gnome
- *  @license Apache-2.0
+ *  @license      Apache-2.0
  *  @requires     /stylesheet.css
  */
 
