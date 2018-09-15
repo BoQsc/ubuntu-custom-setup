@@ -22,3 +22,5 @@
  
   Source: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html  
   Future license: https://www.gnu.org/licenses/gpl-howto.html
+  
+  Reason for the current license: https://gitlab.gnome.org/GNOME/gnome-shell
