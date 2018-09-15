@@ -1,20 +1,12 @@
 /**
- * @file The extension.js file is simply a JavaScript file; 
- * it must however have a function called init, which will be invoked at most once directly after your source JS file is loaded. 
- * You should modify all user interfaces in a separate enable function, and remove all custom functionality in a disable function.
- 
- * @author       GNU Gnome
- 
- 
- * @requires     /stylesheet.css
+ *  @file The extension.js file is simply a JavaScript file; 
+ *  it must however have a function called init, which will be invoked at most once directly after your source JS file is loaded. 
+ *  You should modify all user interfaces in a separate enable function, and remove all custom functionality in a disable function.
+ *
+ *  @author       GNU Gnome
+ *
+ *  @requires     /stylesheet.css
  */
-
-
-
-/*
-
-
-*/
 
 /*
     Gnome Application Development book:
