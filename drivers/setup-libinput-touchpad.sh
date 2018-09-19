@@ -21,4 +21,5 @@ sudo tee --append /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
 
 ##Futher read
 #https://ask.fedoraproject.org/en/question/102327/how-to-properly-set-xinput-settings-to-be-persistent/
+#http://manpages.ubuntu.com/manpages/bionic/man4/libinput.4.html
 
