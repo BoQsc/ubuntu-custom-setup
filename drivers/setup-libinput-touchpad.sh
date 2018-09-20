@@ -17,6 +17,7 @@ printf '
 Section "InputClass"
             Identifier "synaptics driver touchpad reconfiguration"
             MatchIsTouchpad "on"
+            #Enable Synaptics Driver insted of libinput Driver
             Driver "synaptics"
             Option "AccelerationProfile" "0"
             Option "FingerLow" "35"
