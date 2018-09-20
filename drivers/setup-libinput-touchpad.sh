@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "begins"
+
 sudo mkdir /etc/X11/xorg.conf.d
 
 ## It is not possible to write a file using SUDO PRINTF directly into protected /etc/ directory
@@ -11,7 +13,6 @@ sudo mkdir /etc/X11/xorg.conf.d
 
 ## The solution seems to be to use: tee --append
 # The --append flag for appending to text file, instead of overwritting completely.
-echo "begins"
 printf '
 Section "InputClass"
             Identifier "synaptics driver touchpad reconfiguration"
