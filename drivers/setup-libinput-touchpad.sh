@@ -25,7 +25,7 @@ Section "InputClass"
             Option "AccelerationProfile" "0"
             
             # Stop moving mouse after pressing on the touchpad area
-            Option "FingerLow" "35"
+            Option "FingerLow" "39"
             Option "FingerHigh" "40"
 EndSection
 ' |
