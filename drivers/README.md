@@ -27,6 +27,8 @@ https://stackoverflow.com/questions/5735666/execute-bash-script-from-url/1658413
 
 
 ## Palm Check on Windows (For comparison, it is impossible to convert Windows 10 Synaptics drivers settings to Ubuntu Synaptic drivers settings)
+```
 [HKEY_CURRENT_USER\SOFTWARE\Synaptics\SynTP\TouchPadPS2 ]
 "NotifyDriverFirstLoadState"=dword:00000000
 "PalmRT"=dword:00000000
+```
