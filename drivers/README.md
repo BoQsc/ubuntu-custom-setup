@@ -5,6 +5,8 @@
 `bash <(wget -O - https://github.com/BoQsc/ubuntu-custom-setup/raw/master/drivers/setup-libinput-touchpad.sh -q -o /dev/null)`
 
 
+* Redirecting output to wget-log-1 (solved)
+https://www.linuxquestions.org/questions/slackware-14/wget-always-dumping-logs-with-1-19-2-a-4175616611/
 
 
 ```
