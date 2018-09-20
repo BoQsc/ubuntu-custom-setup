@@ -3,7 +3,7 @@
 sudo mkdir /etc/X11/xorg.conf.d
 
 ## It is not possible to write a file using SUDO PRINTF directly into protected /etc/ directory
-# sudo printf "Some Example Text" >> \etc\X11\xorg.conf.d\99-general-touchpad.conf
+# sudo printf "Some Example Text" >> \etc\X11\xorg.conf.d\99-general-synaptics-touchpad.conf
 
 ## The Explanation of why it is not possible:
 # It is normal. The file after the > is not open by the process running under sudo, but by the shell, which isn't. 
@@ -13,8 +13,10 @@ sudo mkdir /etc/X11/xorg.conf.d
 # The --append flag for appending to text file, instead of overwritting completely.
 
 printf "
-foo \n
-bar
+Section "InputClass" \n
+            Identifier "synaptics driver touchpad reconfiguration" \n
+            MatchIsTouchpad "on" \n
+            Option "AccelerationProfile" "0" \n
 " |
 sudo tee --append /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
 
