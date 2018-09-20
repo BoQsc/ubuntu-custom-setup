@@ -11,7 +11,7 @@ sudo mkdir /etc/X11/xorg.conf.d
 
 ## The solution seems to be to use: tee --append
 # The --append flag for appending to text file, instead of overwritting completely.
-
+echo "begins"
 printf '
 Section "InputClass"
             Identifier "synaptics driver touchpad reconfiguration"
@@ -19,7 +19,7 @@ Section "InputClass"
             Option "AccelerationProfile" "0"
 EndSection
 ' |
-sudo tee --append /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
+sudo tee /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
 
 
 ##Futher read
