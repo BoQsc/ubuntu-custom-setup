@@ -17,9 +17,14 @@ printf '
 Section "InputClass"
             Identifier "synaptics driver touchpad reconfiguration"
             MatchIsTouchpad "on"
-            #Enable Synaptics Driver insted of libinput Driver
+            
+            # Enable Synaptics Driver insted of libinput Driver
             Driver "synaptics"
+            
+            # Enable Flat Acceleration profile instead of adaptive
             Option "AccelerationProfile" "0"
+            
+            # Stop moving mouse after pressing on the touchpad area
             Option "FingerLow" "35"
             Option "FingerHigh" "40"
 EndSection
