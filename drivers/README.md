@@ -2,7 +2,7 @@
 
 ## To run the driver setup
 
-`bash <(wget -qO- https://github.com/BoQsc/ubuntu-custom-setup/raw/master/drivers/setup-libinput-touchpad.sh)`
+`bash <(wget -O - https://github.com/BoQsc/ubuntu-custom-setup/raw/master/drivers/setup-libinput-touchpad.sh -q -o /dev/null)`
 
 
 
