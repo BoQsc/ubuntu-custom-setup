@@ -22,3 +22,11 @@ what is -qO- ????? – CodeGuru Nov 2 '17 at 8:34
 RTFM: gnu.org/software/wget/manual/wget.html. ||| -q == --quiet == "Turn off Wget’s output." ||| -O- == --output-document=- == If ‘-’ is used as file, documents will be printed to standard output. – amra Nov 20 '17 at 11:26 
 ```
 https://stackoverflow.com/questions/5735666/execute-bash-script-from-url/16584131#16584131
+
+
+
+
+## Palm Check on Windows (For comparison, it is impossible to convert Windows 10 Synaptics drivers settings to Ubuntu Synaptic drivers settings)
+[HKEY_CURRENT_USER\SOFTWARE\Synaptics\SynTP\TouchPadPS2 ]
+"NotifyDriverFirstLoadState"=dword:00000000
+"PalmRT"=dword:00000000
