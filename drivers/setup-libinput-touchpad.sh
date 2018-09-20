@@ -17,6 +17,7 @@ Section "InputClass" \n
             Identifier "synaptics driver touchpad reconfiguration" \n
             MatchIsTouchpad "on" \n
             Option "AccelerationProfile" "0" \n
+EndSection
 " |
 sudo tee --append /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
 
