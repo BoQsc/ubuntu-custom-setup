@@ -16,8 +16,3 @@ The number at the beginning simply means Priority.
 10-xxxxxxxx.conf meaning will be applied first.  
 * 99-xxxxxxxx.conf meaning will be applied later on and override every conflicting property setuped by 8-xxxxxxxx.conf 
   * 9-xxxxxxxx.conf, 10-xxxxxxxx.conf or 25-xxxxxxxx.conf, 38-xxxxxxxx.conf and so on...
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
