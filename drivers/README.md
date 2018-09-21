@@ -1,4 +1,9 @@
-# 
+# Latest addon implementation information
+```
+Property 'Device Accel Velocity Scaling' changed.
+	Device Accel Velocity Scaling (279):	25.000000
+```
+
 
 ## To run the driver setup
 
