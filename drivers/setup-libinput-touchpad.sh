@@ -16,6 +16,8 @@ echo "begins"
 # Change Device Accel Profile (274) to zero profile
 sudo xinput --set-prop 11 274 0
 
+# Synaptics Finger (279): 
+sudo xinput --set-prop 11 "Synaptics Finger" 35, 40, 0
 
 
 sudo mkdir /etc/X11/xorg.conf.d
