@@ -2,9 +2,21 @@
 
 echo "begins"
 
+
+# To show auto-refreshing list of currently set touchpad properties
+## Press Ctrl + C to quit if you are done monitoring values
+# xinput --watch-props 11 
+# xinput --watch-props 'SynPS/2 Synaptics TouchPad'
+
+
+# Change Device Accel Profile (274) to zero profile
+sudo xinput --set-prop 11 274 0
+
+
+
 sudo mkdir /etc/X11/xorg.conf.d
 
-## It is not possible to write a file using SUDO PRINTF directly into protected /etc/ directory
+## It is not possible to directly write a file using SUDO PRINTF into protected /etc/ directory
 # sudo printf "Some Example Text" >> \etc\X11\xorg.conf.d\99-general-synaptics-touchpad.conf
 
 ## The Explanation of why it is not possible:
