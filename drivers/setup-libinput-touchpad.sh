@@ -2,6 +2,12 @@
 
 echo "begins"
 
+# Device Test
+## Test if you selected correct touchpad/mouse device
+## xinput will start tracking mouse movement.
+# xinput --test 11
+
+
 # For single time look up on touchpad settings properties
 # xinput --list-props 11 
 # xinput --list-props 'SynPS/2 Synaptics TouchPad'
