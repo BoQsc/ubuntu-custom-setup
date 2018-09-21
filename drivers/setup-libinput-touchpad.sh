@@ -39,7 +39,7 @@ sudo mkdir /etc/X11/xorg.conf.d
 # The --append flag for appending to text file, instead of overwritting completely.
 printf '
 Section "InputClass"
-            Identifier "synaptics driver touchpad reconfiguration"
+            Identifier "SynPS/2 Synaptics TouchPad reconfiguration"
             MatchIsTouchpad "on"
             
             # Enable Synaptics Driver insted of libinput Driver
