@@ -2,6 +2,9 @@
 
 echo "begins"
 
+# For single time look up on touchpad settings properties
+# xinput --list-props 11 
+# xinput --list-props 'SynPS/2 Synaptics TouchPad'
 
 # To show auto-refreshing list of currently set touchpad properties
 ## Press Ctrl + C to quit if you are done monitoring values
@@ -9,6 +12,7 @@ echo "begins"
 # xinput --watch-props 'SynPS/2 Synaptics TouchPad'
 
 
+# Dynamic real-time touchpad changes using xinput
 # Change Device Accel Profile (274) to zero profile
 sudo xinput --set-prop 11 274 0
 
