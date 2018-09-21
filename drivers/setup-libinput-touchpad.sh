@@ -52,8 +52,7 @@ Section "InputClass"
             Option "FingerLow" "39"
             Option "FingerHigh" "40"
 EndSection
-' |
-sudo tee /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
+' | sudo tee /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
 
 
 ##Futher read
