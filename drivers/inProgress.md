@@ -12,3 +12,7 @@ Some original example can be found in **/usr/share/X11/xorg.conf.d/**:
 * 70-synaptics.conf
 * 70-wacom.conf
 
+The number at the beginning simply means Priority.  
+10-xxxxxxxx.conf meaning will be applied first.  
+99-xxxxxxxx.conf meaning will be applied later on and override every property setup by 10-xxxxxxxx.conf or 25-xxxxxxxx.conf, 38-xxxxxxxx.conf and so on...
+
