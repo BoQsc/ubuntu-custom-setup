@@ -14,5 +14,6 @@ Some original example can be found in **/usr/share/X11/xorg.conf.d/**:
 
 The number at the beginning simply means Priority.  
 10-xxxxxxxx.conf meaning will be applied first.  
-99-xxxxxxxx.conf meaning will be applied later on and override every conflicting property setuped by 10-xxxxxxxx.conf or 25-xxxxxxxx.conf, 38-xxxxxxxx.conf and so on...
+* or 99-xxxxxxxx.conf meaning will be applied later on and override every conflicting property setuped by 10-xxxxxxxx.conf 
+* or 25-xxxxxxxx.conf, 38-xxxxxxxx.conf and so on...
 
