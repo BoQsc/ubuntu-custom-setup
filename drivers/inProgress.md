@@ -11,7 +11,8 @@
 
 ### X11/xorg.conf.d/ directory structure
 Some original example can be found in **/usr/share/X11/xorg.conf.d/**:
-<br>xorg.conf.d/
+
+#### xorg.conf.d
 ```
  10-amdgpu.conf
  10-quirks.conf
