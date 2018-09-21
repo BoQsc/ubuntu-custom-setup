@@ -12,13 +12,13 @@
 ### X11/xorg.conf.d/ directory structure
 Some original example can be found in **/usr/share/X11/xorg.conf.d/**:
 ```
-* 10-amdgpu.conf
-* 10-quirks.conf
-* 10-radeon.conf
-* 40-libinput.conf
-* 51-synaptics-quirks.conf
-* 70-synaptics.conf
-* 70-wacom.conf
+ 10-amdgpu.conf
+ 10-quirks.conf
+ 10-radeon.conf
+ 40-libinput.conf
+ 51-synaptics-quirks.conf
+ 70-synaptics.conf
+ 70-wacom.conf
 ```
 The number at the beginning simply means Priority.  
 10-xxxxxxxx.conf meaning will be applied first.  
