@@ -21,9 +21,19 @@ mv ./desktop-icons-master ./desktop-icons@csoriano
 ### disable ubuntu icons implementation.
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
+### Replace Gnome Window manager with new one, to see the icons appear.
+# -r, --replace             Replace the running window manager
 gnome-shell --replace & disown
 
+
 read -rsp $'Press enter to continue...\n'
+
+
+
+## Giving Strange error, unable to refresh
+#gnome-shell-extension-tool --r desktop-icons@csoriano
+
+
 
 
 
