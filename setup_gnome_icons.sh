@@ -14,12 +14,24 @@ https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/-/archive/master/de
 
 # Extract downloaded extension archive .tar.gz using built-in archiving utility named "tar".
 tar -xvzf ./desktop-icons-master.tar.gz
-#extracted folder must be named: desktop-icons@csoriano
-#press alt+f2 and write restart - to restart gnome and see new available extensions
 
+# Rename extracted extension folder to fit UUID from metadata.json
+mv ./desktop-icons-master ./desktop-icons@csoriano
 
 ### disable ubuntu icons implementation.
 gsettings set org.gnome.desktop.background show-desktop-icons false
+
+gnome-shell --replace & disown
+
+read -rsp $'Press enter to continue...\n'
+
+
+
+#press alt+f2 and write restart - to restart gnome and see new available extensions
+
+
+
+
 
 
 # z: tells tar to decompress the archive using gzip
