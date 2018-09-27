@@ -23,7 +23,7 @@ echo "begins"
 sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Device Accel Profile" 0
 
 # Synaptics Finger (279): 
-sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Synaptics Finger" 35, 40, 0
+sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Synaptics Finger" 39, 40, 0
 
 
 sudo mkdir /etc/X11/xorg.conf.d
