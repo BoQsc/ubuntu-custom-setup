@@ -10,16 +10,25 @@ cd ~/.local/share/gnome-shell/extensions
 wget --no-check-certificate `don't validate the server's certificate` \
      --content-disposition `Honor the Content-Disposition header when choosing local file names (EXPERIMENTAL)` \
      --output-document=desktop-icons-master.tar.gz   `Filename of the downloaded extension archive` \
-https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/-/archive/master/desktop-icons-master.tar.gz `Download URL` \
+`Download URL` https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/-/archive/master/desktop-icons-master.tar.gz \
 
 # Extract downloaded extension archive .tar.gz using built-in archiving utility named "tar".
 tar -xvzf ./desktop-icons-master.tar.gz
 
+# Disable old Gnome Icons extension if it was installed/enabled before
+gnome-shell-extension-tool --d desktop-icons@csoriano
+
+  # Delete old ./desktop-icons@csoriano extension folder
+  rm -rf ./desktop-icons@csoriano
+
 # Rename extracted extension folder to fit UUID from metadata.json
 mv ./desktop-icons-master ./desktop-icons@csoriano
 
-### disable ubuntu icons implementation.
+### disable Ubuntu Icons implementation.
 gsettings set org.gnome.desktop.background show-desktop-icons false
+
+### Enable Gnome Icons Extension
+gnome-shell-extension-tool --e desktop-icons@csoriano
 
 ### Replace Gnome Window manager with new one, to see the icons appear.
 # -r, --replace             Replace the running window manager
