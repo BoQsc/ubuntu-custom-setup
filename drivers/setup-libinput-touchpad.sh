@@ -23,7 +23,7 @@ echo "begins"
 sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Device Accel Profile" 0
 
 # Synaptics Finger (279): 
-sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Synaptics Finger" 39, 40, 0
+sudo xinput --set-prop 'SynPS/2 Synaptics TouchPad' "Synaptics Finger" 40, 40, 0
 
 
 sudo mkdir /etc/X11/xorg.conf.d
@@ -49,7 +49,7 @@ Section "InputClass"
             Option "AccelerationProfile" "0"
             
             # Stop moving mouse after pressing on the touchpad area
-            Option "FingerLow" "39"
+            Option "FingerLow" "40"
             Option "FingerHigh" "40"
 EndSection
 ' | sudo tee /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
