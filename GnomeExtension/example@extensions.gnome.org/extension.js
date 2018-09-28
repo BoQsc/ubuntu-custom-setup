@@ -18,27 +18,26 @@
   */
   
   
- /** 
-  * Gnome Seed - Namespace and Modules Importer 
-  * @see https://wiki.gnome.org/Projects/Seed
-  * @see https://developer.gnome.org/seed/stable/seed-importer.html
-  * @see https://github.com/GNOME/seed
-  * @see https://gi.readthedocs.io/en/latest/#gobject-introspection
-  * @see https://developer.gnome.org/gi/stable/overview.html
-  * @example Gnome Javascript (Gjs) engine <- Gnome Seed importer <- C libraries
+ /** @name Gnome Seed - Namespace and Modules Importer 
+  *  @see https://wiki.gnome.org/Projects/Seed
+  *  @see https://github.com/GNOME/seed
+  *  @see https://gi.readthedocs.io/en/latest/#gobject-introspection
+  *  @see https://developer.gnome.org/gi/stable/overview.html
+  *  @example Gnome Javascript (Gjs) engine <- Gnome Seed importer <- C libraries
   */
   
   
 
- // Importing Native Modules
+ /** @name Importing Native Modules 
+  *  @see https://developer.gnome.org/seed/stable/seed-importer.html
+  */
 const Mainloop = imports.mainloop;
  
-// Importing GObject-Introspection namespaces
-/**
- * Gtk is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.
- * GLib is a helper library, which lets us do things like tell GNOME where the hellognome.html file we created is.
- * And Webkit is a web rendering engine, which we'll use to basically create a browser window to open our HTML file with.
- * @see https://developer.gnome.org/gnome-devel-demos/stable/hellognome.js.html.en
+/** @name Importing GObject-Introspection namespaces
+ *  Gtk is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.
+ *  GLib is a helper library, which lets us do things like tell GNOME where the hellognome.html file we created is.
+ *  And Webkit is a web rendering engine, which we'll use to basically create a browser window to open our HTML file with.
+ *  @see https://developer.gnome.org/gnome-devel-demos/stable/hellognome.js.html.en
  */
 const Gtk = imports.gi.Gtk; // https://en.wikipedia.org/wiki/GLib#/media/File:GTK%2B_software_architecture.svg
 const GLib = imports.gi.GLib;
@@ -48,14 +47,17 @@ const St = imports.gi.St; // Gnome Shell toolkit ( https://developer.gnome.org/s
 
 
 
-/** 
- * The GNOME Shell uses Clutter to lay out its graphical components.
- * The GNOME Shell does not use Clutter animation framework, but uses Tweener instead.
- * @see
+/** @name About the Clutter
+ *  The GNOME Shell uses Clutter to lay out its graphical components.
+ *  The GNOME Shell does not use Clutter animation framework, but uses Tweener instead.
+ *  @see
  */
 const Clutter = imports.gi.Clutter;
  
- // Importing Gnome-Shell UI
+/** @name Importing Gnome-Shell UI
+ *  Javascript files that can be manipulated to change Gnome User Interface.
+ *  @see https://gitlab.gnome.org/GNOME/gnome-shell 
+ */
 const Main = imports.ui.main; /** @returns https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/main.js */
 const Tweener = imports.ui.tweener; /** @returns https://gitlab.gnome.org/GNOME/gnome-shell/tree/master/js/ui/tweener.js */
 
@@ -140,7 +142,6 @@ function enable() {
 function disable() {
     Main.panel._rightBox.remove_child(button);
 }
-
 
 
 
