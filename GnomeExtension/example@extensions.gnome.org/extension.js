@@ -62,7 +62,7 @@ const Tweener = imports.ui.tweener; /** @returns https://gitlab.gnome.org/GNOME/
 
 
 /* ____________________________________________________________________________________ 
-                                 Gnome Importer End
+                                 Gnome Seed Importer End
    ____________________________________________________________________________________ 
 */
 
