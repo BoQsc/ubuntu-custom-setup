@@ -31,6 +31,7 @@
  /** @name Importing Native Modules 
   *  @see https://developer.gnome.org/seed/stable/seed-importer.html
      @see https://krakensden.com/p/1473028762 for mainloops
+     @see http://smasue.github.io/gnome-shell-tw#tocAnchor-1-7-3
   */
 const Mainloop = imports.mainloop;
  
