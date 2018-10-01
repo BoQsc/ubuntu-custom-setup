@@ -2,9 +2,15 @@
 sudo apt-add-repository multiverse && sudo apt-get update
 sudo apt-get install chrome-gnome-shell
 
+
 sudo mkdir /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
+
+# .xpi extension files are simply .zip files
 sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 
+
+
+# https://support.mozilla.org/en-US/questions/1103050
 #/usr/lib/firefox/browser/defaults/preferences
 # change: pref("extensions.autoDisableScopes", 3);
 # to: lockpref("extensions.autoDisableScopes", 0);
