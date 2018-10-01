@@ -32,6 +32,10 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 # about:config
 
 
+## refresh firefox
+#https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings
+
+
 
 
 #-----------------------------------------------------
