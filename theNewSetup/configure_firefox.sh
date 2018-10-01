@@ -26,3 +26,8 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 
 
 #  https://addons.mozilla.org/firefox/downloads/file/898030/gnome_shell_integration-10.1-an+fx-linux.xpi?src=dp-btn-primary
+
+
+## disable title menu
+# about:config
+# lockPref("browser.tabs.drawInTitlebar", true);
