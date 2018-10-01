@@ -30,4 +30,9 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 
 ## disable title menu
 # about:config
+
+
+
+# defaultPref("browser.tabs.drawInTitlebar", true);
+# pref("browser.tabs.drawInTitlebar", true);
 # lockPref("browser.tabs.drawInTitlebar", true);
