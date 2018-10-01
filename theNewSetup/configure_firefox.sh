@@ -33,6 +33,23 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 
 
 
+
+#-----------------------------------------------------
+
+# /usr/lib/firefox/browser/defaults/pref/local-settings.js
+# pref("general.config.obscure_value", 0);
+# pref("general.config.filename", "mozilla.cfg");
+
+
+# defaultPref("browser.tabs.drawInTitlebar", true);
+# pref("browser.tabs.drawInTitlebar", true);
+# lockPref("browser.tabs.drawInTitlebar", true);
+
+
+# -----------------------------------------------
+#/usr/lib/firefox/browser/defaults/preferences/vendor-firefox.js
+# /usr/lib/firefox/defaults/pref/vendor-gre.js
+
 # defaultPref("browser.tabs.drawInTitlebar", true);
 # pref("browser.tabs.drawInTitlebar", true);
 # lockPref("browser.tabs.drawInTitlebar", true);
