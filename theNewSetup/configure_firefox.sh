@@ -10,6 +10,11 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 
 
 
+# defaultPref();  // set new default value
+# pref();         // set pref, but allow changes in current session
+# lockPref();     // lock pref, disallow changes
+
+
 # https://support.mozilla.org/en-US/questions/1103050
 #/usr/lib/firefox/browser/defaults/preferences
 # change: pref("extensions.autoDisableScopes", 3);
