@@ -15,6 +15,9 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 # lockPref();     // lock pref, disallow changes
 
 
+
+
+
 # https://support.mozilla.org/en-US/questions/1103050
 #/usr/lib/firefox/browser/defaults/preferences
 # change: pref("extensions.autoDisableScopes", 3);
@@ -50,7 +53,7 @@ sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/brow
 # lockPref("browser.tabs.drawInTitlebar", true);
 
 
-# -----------------------------------------------
+# ------------------Correct One, only this is needed-----------------------------
 #/usr/lib/firefox/browser/defaults/preferences/vendor-firefox.js
 # /usr/lib/firefox/defaults/pref/vendor-gre.js
 
