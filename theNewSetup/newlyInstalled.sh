@@ -9,3 +9,5 @@ sudo apt update && sudo apt upgrade
 
 
 # https://www.ostechnix.com/ubuntu-post-installation-script/
+
+# https://github.com/BoQsc/ubuntu-bloat-removal
