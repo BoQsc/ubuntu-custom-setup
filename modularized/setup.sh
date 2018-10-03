@@ -27,7 +27,10 @@ sudo apt purge snapd snap-confine && sudo apt install -y snapd
 snap refresh
 
 
+
 # Disable Firefox Title-bar
+# Firefox menu button -> Customize -> turn off title bar
+# move csd buttons to the tabs-bar, turn off title bar
 printf '
 	defaultPref("browser.tabs.drawInTitlebar", true);
 	pref("browser.tabs.drawInTitlebar", true);
