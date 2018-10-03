@@ -6,7 +6,8 @@ sudo apt update && sudo apt upgrade
     sudo rm /usr/share/unity-webapps/userscripts/unity-webapps-amazon/Amazon.user.js
     sudo rm /usr/share/unity-webapps/userscripts/unity-webapps-amazon/manifest.json
 
-
+# Remove ThunderBird mail
+sudo apt-get purge thunderbird -y
 
 # https://www.ostechnix.com/ubuntu-post-installation-script/
 
