@@ -8,9 +8,6 @@ sudo apt-get install chrome-gnome-shell
 
 
 # Prepare Firefox to communicate with Gnome Shell
-# Make extension's folder
-sudo mkdir /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
-	 
 
 # Download Firefox Extension to communicate with Gnome Shell	 
 wget --no-check-certificate `don't validate the server's certificate` \
