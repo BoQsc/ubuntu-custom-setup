@@ -27,7 +27,6 @@ sudo unzip gnome_shell_integration-an+fx-linuz.xpi -d /usr/lib/firefox/browser/e
 
 
 # Disable Firefox Title-bar
-
 printf '
 defaultPref("browser.tabs.drawInTitlebar", true);
 pref("browser.tabs.drawInTitlebar", true);
