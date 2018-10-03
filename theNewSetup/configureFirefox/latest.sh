@@ -10,7 +10,6 @@ sudo apt-get install chrome-gnome-shell
 
 
 # Prepare Firefox to communicate with Gnome Shell
-
 # Download Firefox WebExtension to communicate with Gnome Shell	 
 wget --no-check-certificate `don't validate the server's certificate` \
      --content-disposition `Honor the Content-Disposition header when choosing local file names (EXPERIMENTAL)` \
