@@ -10,6 +10,11 @@ source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
 
+# Mouse speed for desktop with mouse.
+# gsettings set libinput 
+# Accel Speed (288): -0.496403
+
+
 # Enable ALT+Shift combination for changing input language
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L', '<Alt>Shift_L']"
 
