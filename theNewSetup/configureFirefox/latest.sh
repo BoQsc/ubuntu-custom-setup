@@ -1,5 +1,7 @@
 #!/bin/bash
 
+function installWebExtensionsSupport(){
+
 # Enable Ubunutu multiverse repository - that contains licensed and restricted software.
 sudo apt-add-repository multiverse && sudo apt-get update
 
@@ -9,7 +11,7 @@ sudo apt-get install chrome-gnome-shell
 
 # Prepare Firefox to communicate with Gnome Shell
 
-# Download Firefox Extension to communicate with Gnome Shell	 
+# Download Firefox WebExtension to communicate with Gnome Shell	 
 wget --no-check-certificate `don't validate the server's certificate` \
      --content-disposition `Honor the Content-Disposition header when choosing local file names (EXPERIMENTAL)` \
      --output-document=gnome_shell_integration-an+fx-linuz.xpi   `Filename of the downloaded extension archive` \
@@ -22,7 +24,7 @@ wget --no-check-certificate `don't validate the server's certificate` \
 sudo mkdir /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 # .xpi extension files are simply .zip files
 sudo unzip gnome_shell_integration-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
-
+}
 
 
 
