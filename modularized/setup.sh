@@ -10,6 +10,9 @@ source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
 
+# Enable ALT+Shift combination for changing input language
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L', '<Alt>Shift_L']"
+
 # Ubuntu snap does not start?
 sudo snap install wine-platform-sudo snap install wine-platform-i386
 sudo apt purge snapd snap-confine && sudo apt install -y snapd
