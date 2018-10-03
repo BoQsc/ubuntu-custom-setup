@@ -8,8 +8,8 @@ sudo apt-get install chrome-gnome-shell
 
 wget --no-check-certificate `don't validate the server's certificate` \
      --content-disposition `Honor the Content-Disposition header when choosing local file names (EXPERIMENTAL)` \
-     --output-document=gnome_shell_integration-10.1-an+fx-linuz.xpi   `Filename of the downloaded extension archive` \
-`Download URL` https://addons.mozilla.org/firefox/downloads/file/898030 \
+     --output-document=gnome_shell_integration-an+fx-linuz.xpi   `Filename of the downloaded extension archive` \
+`Download URL` https://addons.mozilla.org/firefox/downloads/latest/gnome-shell-integration/addon-898030-latest.xpi \
 	 
 	 
 	 
@@ -17,7 +17,7 @@ wget --no-check-certificate `don't validate the server's certificate` \
 # Create extension's folder according to extension's id
 sudo mkdir /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 # .xpi extension files are simply .zip files
-sudo unzip gnome_shell_integration-10.1-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
+sudo unzip gnome_shell_integration-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 
 
 
