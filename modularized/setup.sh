@@ -36,3 +36,8 @@ printf '
 	pref("browser.tabs.drawInTitlebar", true);
 	lockPref("browser.tabs.drawInTitlebar", true);
 ' | sudo tee /usr/lib/firefox/browser/defaults/preferences/99-local-settings.js &> /dev/null
+
+
+
+
+
