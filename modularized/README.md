@@ -4,6 +4,7 @@ https://extensions.gnome.org/extension/723/pixel-saver/
 
 #### Dash to Panel Extension
 https://extensions.gnome.org/extension/1160/dash-to-panel/
+* **replacement for** BottomPanel https://extensions.gnome.org/extension/949/bottompanel/
 
 
 
