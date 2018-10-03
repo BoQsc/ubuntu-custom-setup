@@ -4,3 +4,16 @@ https://extensions.gnome.org/extension/723/pixel-saver/
 
 #### Dash to Panel Extension
 https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+
+
+
+
+
+
+
+
+ubuntu shift and alt to switch language
+Feldwor edited this page 12 days ago · 1 revision
+
+https://askubuntu.com/questions/967364/ubuntu-17-10-and-later-cant-change-the-input-switching-shortcut-to-altshift/967493
