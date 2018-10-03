@@ -24,7 +24,7 @@ function installWebExtensionsSupport(){
 	# .xpi extension files are simply .zip files
 	sudo unzip gnome_shell_integration-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 }
-
+installWebExtensionsSupport;
 
 
 # Disable Firefox Title-bar
