@@ -10,7 +10,7 @@ wget --no-check-certificate `don't validate the server's certificate` \
      --content-disposition `Honor the Content-Disposition header when choosing local file names (EXPERIMENTAL)` \
      --output-document=gnome_shell_integration-an+fx-linuz.xpi   `Filename of the downloaded extension archive` \
 `Download URL` https://addons.mozilla.org/firefox/downloads/latest/gnome-shell-integration/addon-898030-latest.xpi \
-	 
+# https://github.com/mozilla/addons-frontend/issues/4083	 
 	 
 	 
 
