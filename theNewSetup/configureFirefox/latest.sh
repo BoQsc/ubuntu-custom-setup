@@ -29,7 +29,7 @@ function installWebExtensionsSupport(){
 
 # Disable Firefox Title-bar
 printf '
-defaultPref("browser.tabs.drawInTitlebar", true);
-pref("browser.tabs.drawInTitlebar", true);
-lockPref("browser.tabs.drawInTitlebar", true);
+	defaultPref("browser.tabs.drawInTitlebar", true);
+	pref("browser.tabs.drawInTitlebar", true);
+	lockPref("browser.tabs.drawInTitlebar", true);
 ' | sudo tee /usr/lib/firefox/browser/defaults/preferences/99-local-settings.js &> /dev/null
