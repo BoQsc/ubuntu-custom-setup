@@ -14,6 +14,9 @@ setupSynapticsTouchpad;
 # gsettings set libinput 
 # Accel Speed (288): -0.496403
 
+#org.gnome.desktop.peripherals.mouse accel-profile: adaptive
+
+
 
 # Enable ALT+Shift combination for changing input language
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L', '<Alt>Shift_L']"
