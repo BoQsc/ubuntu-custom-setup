@@ -21,6 +21,8 @@ setupSynapticsTouchpad;
 # Check current settings: gsettings get org.gnome.desktop.input-sources sources
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'lt')]"
 
+
+# Only sets for the current user, for all users @see https://unix.stackexchange.com/questions/27484/set-default-global-gnome-preferences-gnome-3
 # Enable ALT+Shift combination for changing input language
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Alt>Shift_L']"
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L'"
