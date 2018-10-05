@@ -29,6 +29,11 @@ sudo apt -y purge snapd snap-confine
 sudo apt install -y snapd
 snap refresh
 
+
+# Snap apps Not showing in Ubuntu software centre
+sudo apt -y install gnome-software-plugin-snap
+
+
 # System monitor does not open
 #Reinstall System Monitor.
 snap remove gnome-system-monitor
