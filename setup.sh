@@ -32,7 +32,7 @@ snap refresh
 # System monitor does not open
 #Reinstall System Monitor.
 snap remove gnome-system-monitor
-sudo apt install gnome-system-monitor
+sudo apt -y install gnome-system-monitor
 
 
 
