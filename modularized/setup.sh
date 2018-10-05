@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Never run the script as: sudo bash setup.sh
+# Instead use: bash setup.sh
 
 source installWebExtensionsSupport.sh
 installWebExtensionsSupport;
@@ -21,7 +22,8 @@ setupSynapticsTouchpad;
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'lt')]"
 
 # Enable ALT+Shift combination for changing input language
-gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L', '<Alt>Shift_L']"
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Alt>Shift_L']"
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L'"
 
 # Ubuntu snap program does not start after installation?
 sudo snap install wine-platform-i386
