@@ -18,12 +18,17 @@ setupSynapticsTouchpad;
 
 
 
+# Set input language to English and Lithuanian
+# Check current settings: gsettings get org.gnome.desktop.input-sources sources
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'lt')]"
+
 # Enable ALT+Shift combination for changing input language
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>space', '<Shift>Alt_L', '<Alt>Shift_L']"
 
-# Ubuntu snap does not start?
-sudo snap install wine-platform-sudo snap install wine-platform-i386
-sudo apt purge snapd snap-confine && sudo apt install -y snapd
+# Ubuntu snap program does not start after installation?
+sudo snap install wine-platform-i386
+sudo apt purge snapd snap-confine 
+sudo apt install -y snapd
 snap refresh
 
 

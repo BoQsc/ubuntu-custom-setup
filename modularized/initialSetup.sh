@@ -1,6 +1,7 @@
 #!/bin/bash
 function initialSetup(){
-sudo apt update && sudo apt upgrade
+sudo apt update
+sudo apt -y upgrade
 
 # Remove The Amazon Files Manually
     sudo rm /usr/share/applications/ubuntu-amazon-default.desktop
