@@ -27,7 +27,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Super>spa
 
 # Ubuntu snap program does not start after installation?
 sudo snap install wine-platform-i386
-sudo apt purge snapd snap-confine 
+sudo apt -y purge snapd snap-confine 
 sudo apt install -y snapd
 snap refresh
 
