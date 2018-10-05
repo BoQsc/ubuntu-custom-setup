@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source initialSetup.sh
-initialSetup;
 
 source installWebExtensionsSupport.sh
 installWebExtensionsSupport;
@@ -32,6 +30,18 @@ sudo apt install -y snapd
 snap refresh
 
 
+# Snap apps Not showing in Ubuntu software centre
+sudo apt install gnome-software-plugin-snap
+
+
+# System monitor does not open
+#Reinstall System Monitor.
+snap remove gnome-system-monitor
+sudo apt -y install gnome-system-monitor
+
+
+
+
 
 # Disable Firefox Title-bar
 # Firefox menu button -> Customize -> turn off title bar
@@ -43,6 +53,8 @@ printf '
 ' | sudo tee /usr/lib/firefox/browser/defaults/preferences/99-local-settings.js &> /dev/null
 
 
+source initialSetup.sh
+initialSetup;
 
 
 
