@@ -30,8 +30,16 @@ sudo apt install -y snapd
 snap refresh
 
 
+# FIX notepad ++
+#ubuntu@ubuntu:~$ notepad-plus-plus
+#You need to connect this snap to the wine-platform-i386 snap.
+
+#snap connect notepad-plus-plus:wine-platform-plug wine-platform-i386:wine-base-stable
+#snap disconnect notepad-plus-plus:wine-platform-plug
+
+
 # Snap apps Not showing in Ubuntu software centre
-sudo apt install gnome-software-plugin-snap
+sudo apt -y install gnome-software-plugin-snap
 
 
 # System monitor does not open
