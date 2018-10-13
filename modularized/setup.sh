@@ -5,6 +5,9 @@
 source installWebExtensionsSupport.sh
 installWebExtensionsSupport;
 
+source setupGeneralMouseOptions.sh
+setupGeneralMouseOptions;
+
 source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
