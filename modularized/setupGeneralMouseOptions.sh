@@ -5,8 +5,9 @@ function setupGeneralMouseOptions(){
 # https://askubuntu.com/a/609268
 
 
-## Source of the script: https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/18756948#18756948
 
+### might be interesting to look up: org.gnome.desktop.peripherals.mouse accel-profile: adaptive
+## Source of the script: https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/18756948#18756948
 SEARCH="USB OPTICAL MOUSE"
 if [ "$SEARCH" = "" ]; then 
     exit 1
