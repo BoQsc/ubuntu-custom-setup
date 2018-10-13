@@ -2,6 +2,7 @@
 function setupGeneralMouseOptions(){
 
 ## For Scroll speed adjustment additional drivers might be installed
+# https://askubuntu.com/a/609268
 
 
 ## Source of the script: https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/18756948#18756948
