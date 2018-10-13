@@ -2,6 +2,14 @@
 # Never run the script as: sudo bash setup.sh
 # Instead use: bash setup.sh
 
+echo "Setting TimeZone..."
+export tz=`wget -qO - http://geoip.ubuntu.com/lookup | sed -n -e 's/.*<TimeZone>\(.*\)<\/TimeZone>.*/\1/p'` &&  timedatectl set-timezone $tz
+export tz=`timedatectl status| grep Timezone | awk '{print $2}'`
+echo "TimeZone set to $tz"
+#https://askubuntu.com/questions/323131/setting-timezone-from-terminal/565139#565139
+
+
+
 source installWebExtensionsSupport.sh
 installWebExtensionsSupport;
 
