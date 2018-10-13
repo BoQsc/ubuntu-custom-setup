@@ -3,6 +3,9 @@ function setupGeneralMouseOptions(){
 
 
 ## Source of the script: https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/18756948#18756948
+
+
+SEARCH="USB OPTICAL MOUSE"
 if [ "$SEARCH" = "" ]; then 
     exit 1
 fi
