@@ -1,9 +1,8 @@
+#!/bin/bash
 function setupGeneralMouseOptions(){
 
 
-
 ## Source of the script: https://stackoverflow.com/questions/18755967/how-to-make-a-program-that-finds-ids-of-xinput-devices-and-sets-xinput-some-set/18756948#18756948
-
 
 SEARCH="USB OPTICAL MOUSE"
 if [ "$SEARCH" = "" ]; then 
@@ -19,7 +18,7 @@ ids=$(xinput --list | awk -v search="$SEARCH" \
 
 for i in $ids
 do
-    xinput set-prop $i 'Accel Speed' -0.496403
+    xinput set-prop $i 'libinput Accel Speed' -0.496403
 done
 ##
 
