@@ -1,3 +1,5 @@
+function setupGeneralMouseOptions(){
+
 sudo mkdir /etc/X11/xorg.conf.d
 
 printf '
@@ -7,7 +9,7 @@ Section "InputClass"
             Option "AccelSpeed" "-0.496403"
 
 EndSection
-' | sudo tee /etc/X11/xorg.conf.d/99-general-touchpad.conf &> /dev/null
+' | sudo tee /etc/X11/xorg.conf.d/98-general-mouse.conf &> /dev/null
 
 
 }
