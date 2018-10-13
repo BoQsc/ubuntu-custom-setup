@@ -11,15 +11,6 @@ setupGeneralMouseOptions;
 source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
-
-# Mouse speed for desktop with mouse.
-# gsettings set libinput 
-# Accel Speed (288): -0.496403
-
-#org.gnome.desktop.peripherals.mouse accel-profile: adaptive
-
-
-
 # Set input language to English and Lithuanian
 # Check current settings: gsettings get org.gnome.desktop.input-sources sources
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'lt')]"
@@ -48,6 +39,9 @@ snap refresh
 # Snap apps Not showing in Ubuntu software centre
 sudo apt -y install gnome-software-plugin-snap
 
+# Support mounting exFAT drive on Ubuntu Linux
+# My personal 2TB portable hardrive seems to need this
+sudo apt install exfat-fuse exfat-utils
 
 # System monitor does not open
 #Reinstall System Monitor.
