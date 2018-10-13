@@ -41,7 +41,7 @@ sudo apt -y install gnome-software-plugin-snap
 
 # Support mounting exFAT drive on Ubuntu Linux
 # My personal 2TB portable hardrive seems to need this
-sudo apt install exfat-fuse exfat-utils
+sudo apt -y install exfat-fuse exfat-utils
 
 # System monitor does not open
 #Reinstall System Monitor.
