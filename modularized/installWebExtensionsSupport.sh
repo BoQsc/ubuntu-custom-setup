@@ -22,6 +22,6 @@ function installWebExtensionsSupport(){
 	# Create extension's folder according to extension's id
 	sudo mkdir /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 	# .xpi extension files are simply .zip files
-	sudo unzip -f gnome_shell_integration-an+fx-linuz.xpi -d /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
+	sudo unzip -f gnome_shell_integration-an+fx-linuz.xpi -o /usr/lib/firefox/browser/extensions/chrome-gnome-shell@gnome.org
 }
 
