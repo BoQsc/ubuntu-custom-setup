@@ -19,6 +19,12 @@ setupGeneralMouseOptions;
 source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
+
+# Enable Ubuntu Dock Minimize on Click
+# Now, each time you click on the icon of a running app it will minimize 
+# to its icon or, if already minimized, restore itself back.
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
 # Set input language to English and Lithuanian
 # Check current settings: gsettings get org.gnome.desktop.input-sources sources
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'lt')]"
