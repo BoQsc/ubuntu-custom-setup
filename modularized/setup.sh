@@ -19,6 +19,10 @@ setupGeneralMouseOptions;
 source setupSynapticsTouchpad.sh
 setupSynapticsTouchpad;
 
+# Add boot options to disable apparmor, as it causes snap applications to not open up. 
+sudo mount /dev/sdb3 /mnt
+sudo sed -i "s/=casper/=casper apparmor=0/" "/mnt/boot/grub/grub.cfg"
+
 
 # Enable Ubuntu Dock Minimize on Click
 # Now, each time you click on the icon of a running app it will minimize 
